@@ -1,46 +1,17 @@
-def multiply_matrices(matrix1, matrix2, m, n, p):
-    # Initialize the result matrix with zeros
-    result = [[0 for _ in range(p)] for _ in range(m)]
+import numpy as np
 
-    # Perform matrix multiplication
-    for i in range(m):
-        for j in range(p):
-            for k in range(n):
-                result[i][j] += matrix1[i][k] * matrix2[k][j]
-    
-    return result
+# Define matrices of different dimensions
+A = np.array([[1, 2, 3], [4, 5, 6]])  # A is a 2x3 matrix
+B = np.array([[7, 8], [9, 10], [11, 12]])  # B is a 3x2 matrix
 
-def print_matrix(matrix):
-    # Print the matrix
-    for row in matrix:
-        print(' '.join(map(str, row)))
+# Perform matrix multiplication
+C = np.dot(A, B)
+# Alternatively, you can use the @ operator for matrix multiplication in Python 3.5+
+# C = A @ B
 
-def main():
-    # Input dimensions for the matrices
-    m = int(input("Enter the number of rows for matrix A: "))
-    n = int(input("Enter the number of columns for matrix A (and rows for matrix B): "))
-    p = int(input("Enter the number of columns for matrix B: "))
-
-    # Input elements for the first matrix (m x n)
-    print("Enter elements of matrix A (row by row):")
-    matrix1 = []
-    for i in range(m):
-        row = list(map(int, input().split()))
-        matrix1.append(row)
-    
-    # Input elements for the second matrix (n x p)
-    print("Enter elements of matrix B (row by row):")
-    matrix2 = []
-    for i in range(n):
-        row = list(map(int, input().split()))
-        matrix2.append(row)
-    
-    # Multiply matrices
-    result = multiply_matrices(matrix1, matrix2, m, n, p)
-    
-    # Print the result
-    print("Resultant matrix:")
-    print_matrix(result)
-
-if __name__ == "__main__":
-    main()
+print("Matrix A:")
+print(A)
+print("\nMatrix B:")
+print(B)
+print("\nResult of matrix multiplication A * B:")
+print(C)
