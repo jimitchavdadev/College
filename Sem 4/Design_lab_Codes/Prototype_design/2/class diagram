@@ -1,0 +1,33 @@
+                        +-----------------------+
+                        |      Electronics      |
+                        +-----------------------+
+                        | - brand: String       |
+                        | - model: String       |
+                        | - year: int           |
+                        +-----------------------+
+                        | + getBrand(): String |
+                        | + getModel(): String |
+                        | + getYear(): int     |
+                        | + getDescription(): String |
+                        | + clone(): Electronics |
+                        | + setYear(year: int): void |
+                        +-----------------------+
+                                  ^
+                                  |
+                                  |
+                        +-----------------------+
+                        |      Television       |
+                        +-----------------------+
+                        | - screenSize: int     |
+                        +-----------------------+
+                        | + getDescription(): String |
+                        +-----------------------+
+                        |
+                        |
+                        +-----------------------+
+                        |      Smartphone       |
+                        +-----------------------+
+                        | - processor: String  |
+                        +-----------------------+
+                        | + getDescription(): String |
+                        +-----------------------+

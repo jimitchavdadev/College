@@ -1,0 +1,210 @@
+<html>
+  <head>
+    <title>HTML Fields</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname" />
+      <br />
+
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email" />
+      <br />
+
+      <label for="contact">Contact: </label>
+      <input type="number" id="contact" name="contact" />
+      <br />
+
+      <label for="address">Address: </label>
+      <textarea id="address" name="address" rows="4" cols="50"></textarea>
+      <br />
+
+      <label for="gender">Gender: </label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+      <br />
+
+      <label for="language">Language: </label>
+      <input type="checkbox" id="hindi" name="language" value="hindi" />
+      <label for="hindi">Hindi</label>
+      <input type="checkbox" id="gujarati" name="language" value="gujarati" />
+      <label for="gujarati">Gujarati</label>
+      <input type="checkbox" id="english" name="language" value="english" />
+      <label for="english">English</label>
+      <br />
+      <label for="car">Car Company:</label>
+      <select id="car" name="car">
+        <option value="toyota">Toyota</option>
+        <option value="ford">Ford</option>
+        <option value="honda">Honda</option>
+        <option value="bmw">BMW</option>
+        <option value="audi">Audi</option>
+        <option value="mercedes">Mercedes</option>
+      </select>
+
+      <br />
+      <label for="car">Car Company:</label>
+      <input list="cars" id="car" name="car" />
+      <datalist id="cars">
+        <option value="Toyota"></option>
+        <option value="Ford"></option>
+        <option value="Honda"></option>
+        <option value="BMW"></option>
+        <option value="Audi"></option>
+        <option value="Mercedes"></option>
+      </datalist>
+
+      <br />
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div class="form-group">
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="fname" />
+        </div>
+        <div class="form-group">
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lname" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Education</legend>
+        <div class="form-group">
+          <label for="school">School/University:</label>
+          <input type="text" id="school" name="school" />
+        </div>
+        <div class="form-group">
+          <label for="degree">Degree:</label>
+          <input type="text" id="degree" name="degree" />
+        </div>
+        <div class="form-group">
+          <label for="graduation">Year of Graduation:</label>
+          <input type="number" id="graduation" name="graduation" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Work Experience</legend>
+        <div class="form-group">
+          <label for="company">Company Name:</label>
+          <input type="text" id="company" name="company" />
+        </div>
+        <div class="form-group">
+          <label for="role">Role:</label>
+          <input type="text" id="role" name="role" />
+        </div>
+        <div class="form-group">
+          <label for="years">Years Worked:</label>
+          <input type="number" id="years" name="years" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Skills</legend>
+        <div class="form-group">
+          <label for="skills">Skills:</label>
+          <textarea id="skills" name="skills" rows="4" cols="50"></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Input tags</legend>
+        <label for="button">Button:</label>
+        <input type="button" id="button" value="Click Me" /><br /><br />
+
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" id="checkbox" /><br /><br />
+
+        <label for="color">Color:</label>
+        <input type="color" id="color" /><br /><br />
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" /><br /><br />
+
+        <label for="datetime-local">Datetime-local:</label>
+        <input type="datetime-local" id="datetime-local" /><br /><br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="you@example.com"
+        /><br /><br />
+
+        <label for="file">File:</label>
+        <input type="file" id="file" /><br /><br />
+
+        <label for="hidden">Hidden:</label>
+        <input type="hidden" id="hidden" value="hidden_value" /><br /><br />
+
+        <label for="image">Image:</label>
+        <input
+          type="image"
+          id="image"
+          src="placeholder.jpg"
+          alt="Submit Image"
+        /><br /><br />
+
+        <label for="month">Month:</label>
+        <input type="month" id="month" /><br /><br />
+
+        <label for="number">Number:</label>
+        <input type="number" id="number" min="1" max="10" /><br /><br />
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Password"
+        /><br /><br />
+
+        <label for="radio">Radio:</label>
+        <input type="radio" id="radio1" name="radio-group" value="option1" />
+        Option 1
+        <input type="radio" id="radio2" name="radio-group" value="option2" />
+        Option 2<br /><br />
+
+        <label for="range">Range:</label>
+        <input type="range" id="range" min="0" max="100" /><br /><br />
+
+        <label for="reset">Reset:</label>
+        <input type="reset" id="reset" value="Reset" /><br /><br />
+
+        <label for="search">Search:</label>
+        <input type="search" id="search" placeholder="Search..." /><br /><br />
+
+        <label for="submit">Submit:</label>
+        <input type="submit" id="submit" value="Submit" /><br /><br />
+
+        <label for="tel">Tel:</label>
+        <input type="tel" id="tel" placeholder="123-456-7890" /><br /><br />
+
+        <label for="text">Text:</label>
+        <input type="text" id="text" placeholder="Enter text" /><br /><br />
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" /><br /><br />
+
+        <label for="url">URL:</label>
+        <input
+          type="url"
+          id="url"
+          placeholder="https://example.com"
+        /><br /><br />
+
+        <label for="week">Week:</label>
+        <input type="week" id="week" />
+      </fieldset>
+    </form>
+  </body>
+</html>

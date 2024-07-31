@@ -1,0 +1,6 @@
+CustomerID,ProductID,ReviewDate,Review,ReviewText
+E4F5G6,98765VWX78,2023-04-12,5,Highly recommend!
+H7I8J9,98765VWX78,2023-05-21,4,Pretty good.
+K1L2M3,98765VWX78,2023-06-11,3,Just fine.
+N4O5P6,98765VWX78,2023-07-01,2,Disappointed.
+Q7R8S9,98765VWX78,2023-08-25,1,Not happy.

@@ -1,0 +1,6 @@
+Keyword count: 5
+Operator count: 7
+Other count: 13
+Keyword count: 5
+Operator count: 7
+Other count: 13
