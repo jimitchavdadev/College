@@ -1,17 +1,23 @@
-import numpy as np
+matrix1 = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
 
-# Define two matrices
-A = np.array([[1, 2], [3, 4]])
-B = np.array([[5, 6], [7, 8]])
+matrix2 = [
+    [9, 8, 7],
+    [6, 5, 4],
+    [3, 2, 1]
+]
 
-# Perform matrix multiplication
-C = np.dot(A, B)
-# Alternatively, you can use the @ operator for matrix multiplication in Python 3.5+
-# C = A @ B
+n = len(matrix1)
+result = [[0] * n for _ in range(n)]
 
-print("Matrix A:")
-print(A)
-print("\nMatrix B:")
-print(B)
-print("\nResult of matrix multiplication A * B:")
-print(C)
+for i in range(n):
+    for j in range(n):
+        for k in range(n):
+            result[i][j] += matrix1[i][k] * matrix2[k][j]
+
+
+for row in result:
+    print(row)

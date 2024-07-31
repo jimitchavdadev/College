@@ -1,6 +1,0 @@
-CustomerID	ProductID	ReviewDate	Review	ReviewText
-P7Q8R9	54321PQR34	2023-08-01	5	Excellent!
-S1T2U3	54321PQR34	2023-09-14	4	Very good.
-V4W5X6	54321PQR34	2023-10-05	3	It's okay.
-Y7Z8A9	54321PQR34	2023-07-18	2	Could be better.
-B1C2D3	54321PQR34	2023-11-22	1	Not worth it.

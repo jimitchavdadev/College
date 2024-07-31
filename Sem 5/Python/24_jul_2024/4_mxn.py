@@ -1,17 +1,31 @@
-import numpy as np
+matrix1 = [
+    [1, 2, 3],
+    [4, 5, 6]
+]
 
-# Define matrices of different dimensions
-A = np.array([[1, 2, 3], [4, 5, 6]])  # A is a 2x3 matrix
-B = np.array([[7, 8], [9, 10], [11, 12]])  # B is a 3x2 matrix
+matrix2 = [
+    [7, 8],
+    [9, 10],
+    [11, 12]
+]
 
-# Perform matrix multiplication
-C = np.dot(A, B)
-# Alternatively, you can use the @ operator for matrix multiplication in Python 3.5+
-# C = A @ B
+m = len(matrix1)
+n = len(matrix1[0])
 
-print("Matrix A:")
-print(A)
-print("\nMatrix B:")
-print(B)
-print("\nResult of matrix multiplication A * B:")
-print(C)
+n2 = len(matrix2)
+p = len(matrix2[0])
+
+if n != n2:
+    raise ValueError("columns in matrix1 not equal to number of rows in matrix2")
+
+# result matrix
+result = [[0] * p for _ in range(m)]
+
+for i in range(m):
+    for j in range(p):
+        for k in range(n):
+            result[i][j] += matrix1[i][k] * matrix2[k][j]
+
+
+for row in result:
+    print(row)
