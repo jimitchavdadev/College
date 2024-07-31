@@ -1,0 +1,6 @@
+CustomerID	ProductID	ReviewDate	Review	ReviewText
+I7J8K9	11121ABC33	2023-08-02	5	Superb!
+L1M2N3	11121ABC33	2023-09-09	4	Good product.
+O4P5Q6	11121ABC33	2023-10-14	3	Not bad.
+R7S8T9	11121ABC33	2023-11-17	2	Expected better.
+U1V2W3	11121ABC33	2023-12-21	1	Regret buying.
