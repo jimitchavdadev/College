@@ -1,0 +1,28 @@
+/* Styles for the box model example */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    padding: 20px; /* Inside space */
+    border: 5px solid #4CAF50; /* Border width and color */
+    margin: 30px; /* Outside space */
+    background-color: #FFEB3B; /* Background color */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p {
+    margin: 0;
+}

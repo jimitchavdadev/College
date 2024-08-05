@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Hello World styles */
+  .hello-world {
+    color: #4CAF50;
+    text-align: center;
+  }
+  
+  /* Image styles */
+  .image {
+    width: 500px;
+    height: 600px;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #000;
+  }
+  
+  /* Link styles */
+  .google-link {
+    color: #0000FF;
+    text-decoration: none;
+  }
+  
+  .google-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Text styles */
+  .bold-text b,
+  .strong-text strong {
+    font-weight: bold;
+    color: #FF5722;
+  }
+  
+  .italic-text i,
+  .emphasized-text em {
+    font-style: italic;
+    color: #FF9800;
+  }
+  
+  .underline-text u {
+    text-decoration: underline;
+    color: #03A9F4;
+  }
+  
+  .strikethrough-text s,
+  .deleted-text del {
+    text-decoration: line-through;
+    color: #9C27B0;
+  }
+  
+  .monospace-text code {
+    font-family: monospace;
+    background-color: #E0E0E0;
+    padding: 2px 4px;
+  }
+  
+  .superscript-text sup {
+    vertical-align: super;
+    font-size: smaller;
+  }
+  
+  .subscript-text sub {
+    vertical-align: sub;
+    font-size: smaller;
+  }
+  
+  .small-text small {
+    font-size: smaller;
+  }
+  
+  .big-text big {
+    font-size: larger;
+  }
+  
+  .short-quote q {
+    quotes: "“" "”";
+    color: #607D8B;
+  }
+  
+  .block
+  
