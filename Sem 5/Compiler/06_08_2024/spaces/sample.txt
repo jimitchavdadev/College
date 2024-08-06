@@ -1,0 +1,5 @@
+This is    a sample    text file.
+
+It contains multiple spaces,    newlines,  and    tabs.
+
+    The purpose is to clean up the text.
