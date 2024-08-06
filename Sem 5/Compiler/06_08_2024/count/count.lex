@@ -3,8 +3,8 @@
 int lines=0, words=0, characters=0;
 %}
 %%
-\n { lines++; words++; characters++; }
-[\t ' '] { words++; characters++; }
+\n { words++; lines++; }
+[\t ' '] { characters; words++; }
 . { characters++; }
 %%
 

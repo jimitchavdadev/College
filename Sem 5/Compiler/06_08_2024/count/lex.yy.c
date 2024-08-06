@@ -721,12 +721,12 @@ case 1:
 /* rule 1 can match eol */
 YY_RULE_SETUP
 #line 6 "count.lex"
-{ lines++; words++; characters++; }
+{ words++; lines++; }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
 #line 7 "count.lex"
-{ words++; characters++; }
+{ characters; words++; }
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
@@ -1748,7 +1748,6 @@ void yyfree (void * ptr )
 
 main(void)
 {
-    yyin = fopen("myfile.txt", "r");
     yylex();
     printf("This file contains ...");
     printf("\n\t%d lines", lines);
