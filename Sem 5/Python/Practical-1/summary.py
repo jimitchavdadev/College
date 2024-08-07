@@ -1,23 +1,30 @@
+# os for listing directory and pandas for csv handling
 import os
 import pandas as pd
 
-csv_file = '/home/rebel/Roger/College/Sem 5/Python/Practical-1/csv_datasets/combined_output.csv'
+# path variables
+txt_file = '/home/rebel/Roger/College/Sem 5/Python/Practical-1/combined_output.txt'
 summary_file = '/home/rebel/Roger/College/Sem 5/Python/Practical-1/summary.txt'
 
-# Read the CSV file into a DataFrame
-df = pd.read_csv(csv_file)
+# Read the TXT file into a DataFrame
+# it will take the separator as tab instead of comma
+df = pd.read_csv(txt_file, delimiter='\t')
 
 # Count total number of reviews
 total_reviews = len(df)
 
-# Identify valid and invalid reviews
+# dropna removes all rows with nan values and save it
 valid_reviews = df.dropna()
+
+# .any function checks if there is any null value through .isnull function
+# axis=1 puts the condition that atleast one value is null
 invalid_reviews = df[df.isnull().any(axis=1)]
 
-# Calculate average ratings per ProductID
+# average ratings per ProductID
+# reset_index is used to reset the indexes if any changes are made in the dataframe
 avg_ratings = df.groupby('ProductID')['Review'].mean().reset_index()
 
-# Find top 3 products based on average rating
+# nlargest saves top 3 largest from the reviews section
 top_products = avg_ratings.nlargest(3, 'Review')
 
 # Write the summary to a file

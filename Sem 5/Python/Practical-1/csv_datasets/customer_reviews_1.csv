@@ -1,6 +1,0 @@
-CustomerID,ProductID,ReviewDate,Review,ReviewText
-A1B2C3,12345XYZ67,2023-06-15,5,Great product!
-D4E5F6,12345XYZ67,2023-07-20,4,Works well.
-G7H8I9,12345XYZ67,2023-05-10,3,Average quality.
-J1K2L3,12345XYZ67,2023-06-25,2,Not satisfied.
-M4N5O6,12345XYZ67,2023-07-30,1,Poor experience.
