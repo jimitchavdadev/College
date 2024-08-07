@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 # path variables
-txt_file = '/home/rebel/Roger/College/Sem 5/Python/Practical-1/combined_output.txt'
+txt_file = '/home/rebel/Roger/College/Sem 5/Python/Practical-1/reviews.txt'
 summary_file = '/home/rebel/Roger/College/Sem 5/Python/Practical-1/summary.txt'
 
 # Read the TXT file into a DataFrame
