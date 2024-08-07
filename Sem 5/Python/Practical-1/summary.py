@@ -1,16 +1,14 @@
-# os for listing directory and pandas for csv handling
-import os
 import pandas as pd
 
 # path variables
 txt_file = '/home/rebel/Roger/College/Sem 5/Python/Practical-1/reviews.txt'
 summary_file = '/home/rebel/Roger/College/Sem 5/Python/Practical-1/summary.txt'
 
-# Read the TXT file into a DataFrame
+# txt file into a DataFrame
 # it will take the separator as tab instead of comma
 df = pd.read_csv(txt_file, delimiter='\t')
 
-# Count total number of reviews
+# total number of reviews
 total_reviews = len(df)
 
 # dropna removes all rows with nan values and save it
@@ -27,24 +25,24 @@ avg_ratings = df.groupby('ProductID')['Review'].mean().reset_index()
 # nlargest saves top 3 largest from the reviews section
 top_products = avg_ratings.nlargest(3, 'Review')
 
-# Write the summary to a file
+# summary file
 with open(summary_file, 'w') as file:
-    # Total number of reviews
+    # total number of reviews
     file.write(f"Total number of reviews: {total_reviews}\n\n")
 
-    # Valid reviews
+    # valid reviews
     file.write(f"Valid reviews (total {len(valid_reviews)}):\n")
     for _, row in valid_reviews.iterrows():
         file.write(f"{row.to_dict()}\n")
     file.write("\n")
 
-    # Invalid reviews
+    # invalid reviews
     file.write(f"Invalid reviews (total {len(invalid_reviews)}):\n")
     for _, row in invalid_reviews.iterrows():
         file.write(f"{row.to_dict()}\n")
     file.write("\n")
 
-    # Top 3 products
+    # top 3 products
     file.write("Top 3 products based on average rating:\n")
     for _, row in top_products.iterrows():
         file.write(f"ProductID: {row['ProductID']}, Average Rating: {row['Review']:.2f}\n")
