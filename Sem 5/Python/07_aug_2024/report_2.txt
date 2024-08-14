@@ -15,39 +15,9 @@ Train ID: 13, Train Name: Express Nu, Revenue: 200
 Train ID: 14, Train Name: Regional Xi, Revenue: 400
 Train ID: 15, Train Name: Intercity Omicron, Revenue: 100
 Train ID: 16, Train Name: Metro Pi, Revenue: 200
-Train ID: 17, Train Name: Highspeed Rho, Revenue: 300
-Train ID: 18, Train Name: Local Sigma, Revenue: 600
-Train ID: 19, Train Name: Express Tau, Revenue: 400
-Train ID: 20, Train Name: Regional Upsilon, Revenue: 100
-Train ID: 21, Train Name: Intercity Phi, Revenue: 200
-Train ID: 22, Train Name: Metro Chi, Revenue: 300
-Train ID: 23, Train Name: Highspeed Psi, Revenue: 500
-Train ID: 24, Train Name: Local Omega, Revenue: 200
-Train ID: 25, Train Name: Express Alpha II, Revenue: 300
-Train ID: 26, Train Name: Regional Beta II, Revenue: 100
-Train ID: 27, Train Name: Intercity Gamma II, Revenue: 500
-Train ID: 28, Train Name: Metro Delta II, Revenue: 200
-Train ID: 29, Train Name: Highspeed Epsilon II, Revenue: 400
-Train ID: 30, Train Name: Local Zeta II, Revenue: 200
-Train ID: 31, Train Name: Express Eta II, Revenue: 600
-Train ID: 32, Train Name: Intercity Theta II, Revenue: 300
-Train ID: 33, Train Name: Regional Iota II, Revenue: 100
-Train ID: 34, Train Name: Metro Kappa II, Revenue: 400
-Train ID: 35, Train Name: Highspeed Lambda II, Revenue: 200
-Train ID: 36, Train Name: Local Mu II, Revenue: 500
-Train ID: 37, Train Name: Express Nu II, Revenue: 100
-Train ID: 38, Train Name: Regional Xi II, Revenue: 400
-Train ID: 39, Train Name: Intercity Omicron II, Revenue: 200
-Train ID: 40, Train Name: Metro Pi II, Revenue: 300
-Train ID: 41, Train Name: Highspeed Rho II, Revenue: 200
-Train ID: 42, Train Name: Local Sigma II, Revenue: 600
-Train ID: 43, Train Name: Express Tau II, Revenue: 400
-Train ID: 44, Train Name: Regional Upsilon II, Revenue: 100
-Train ID: 45, Train Name: Intercity Phi II, Revenue: 300
-Train ID: 46, Train Name: Metro Chi II, Revenue: 200
-Train ID: 47, Train Name: Highspeed Psi II, Revenue: 500
-Train ID: 48, Train Name: Local Omega II, Revenue: 100
-Train ID: 49, Train Name: Express Alpha III, Revenue: 400
-Train ID: 50, Train Name: Regional Beta III, Revenue: 300
+Train ID: 17, Train Name: Highspeed Rho, Revenue: 0
+Train ID: 18, Train Name: Local Sigma, Revenue: 0
+Train ID: 19, Train Name: Express Tau, Revenue: 0
+Train ID: 20, Train Name: Regional Upsilon, Revenue: 0
 
-Total Revenue from All Trains: 15800
+Total Revenue from All Trains: 5300
