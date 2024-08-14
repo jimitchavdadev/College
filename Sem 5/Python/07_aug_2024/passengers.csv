@@ -1,41 +1,6 @@
 Passenger Name,Train ID,Number of Tickets
-Jane Doe,T001,2
-John Smith,T002,3
-Alice Johnson,T003,1
-Bob Brown,T004,4
-,,
-Eve Black,T006,2
-Charlie White,T007,3
-David Green,T008,1
-Emily Blue,T009,5
-Frank Red,T010,2
-George Yellow,T011,3
-Hannah Purple,T012,2
-Ivy Orange,T013,4
-Jack Pink,T014,1
-Karen Gold,T015,3
-Leo Silver,T016,2
-Megan Bronze,T017,5
-Nancy Copper,T018,2
-Oscar Brass,T019,3
-Paul Steel,T020,2
-Quincy Iron,T021,4
-Rachel Aluminum,T022,1
-Steve Zinc,T023,3
-Tina Tin,T024,2
-Uma Lead,T025,5
-Victor Nickel,T026,2
-Wendy Platinum,T027,3
-Xander Mercury,T028,2
-Yvonne Cobalt,T029,4
-Zane Titanium,T030,1
-Adam Quartz,T031,3
-Betty Diamond,T032,2
-Carl Sapphire,T033,5
-Diana Emerald,T034,2
-Edward Ruby,T035,3
-Fiona Opal,T036,2
-Gina Topaz,T037,4
-Henry Jade,T038,1
-Isla Pearl,T039,3
-Jackie Gold,T040,2
+Alice,1,2
+Bob,2,3
+Charlie,3,1
+David,1,5
+Eve,2,2

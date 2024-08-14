@@ -1,0 +1,4 @@
+Total Revenue Earned from Each Train:
+Train ID: 1, Train Name: Express A, Revenue: 700
+Train ID: 2, Train Name: Express B, Revenue: 500
+Train ID: 3, Train Name: Express C, Revenue: 100

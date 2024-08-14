@@ -1,0 +1,4 @@
+Train Details and Available Seats:
+Train ID: 1, Train Name: Express A, Source: Station X, Destination: Station Y, Available Seats: 93
+Train ID: 2, Train Name: Express B, Source: Station Y, Destination: Station Z, Available Seats: 145
+Train ID: 3, Train Name: Express C, Source: Station Z, Destination: Station X, Available Seats: 199
