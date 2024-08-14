@@ -38,16 +38,16 @@ def load_passenger_data(filename):
 # Check if the requested number of seats is available on the given train
 def check_seat_availability(trains, train_id, num_tickets):
     if train_id not in trains:
-        raise ValueError("Invalid Train ID")  # Raise an error if the train ID is invalid
+        raise ValueError("Invalid Train ID")  # if the train ID is invalid
     if trains[train_id]['Available Seats'] < num_tickets:
-        raise ValueError("Insufficient Seats")  # Raise an error if there aren't enough seats available
+        raise ValueError("Insufficient Seats")  # if there aren't enough seats available
     return True
 
 
 # Update the train's available seats and total revenue after a successful booking
 def update_seat_availability(trains, train_id, num_tickets, fare):
-    trains[train_id]['Available Seats'] -= num_tickets  # Decrease available seats by the number of tickets booked
-    trains[train_id]['Revenue'] += fare  # Increase the train's revenue by the calculated fare
+    trains[train_id]['Available Seats'] -= num_tickets  
+    trains[train_id]['Revenue'] += fare  
 
 
 # Generate a report showing train details and available seats
@@ -73,7 +73,7 @@ def generate_report_2(trains):
 def calculate_fare(num_tickets):
     return num_tickets * 100  # Example fare rule: 100 currency units per ticket
 
-
+# Paths for .csv files
 trains = load_train_data('/home/rebel/Roger/College/Sem 5/Python/07_aug_2024/trains.csv')  # Load train data from CSV
 passengers = load_passenger_data(
     '/home/rebel/Roger/College/Sem 5/Python/07_aug_2024/passengers.csv')  # Load passenger data from CSV
@@ -90,7 +90,7 @@ for passenger in passengers:
                 f"Booking confirmed for {passenger['Passenger Name']} on Train ID {train_id} for {num_tickets} tickets. Total Fare: {fare}")
     except ValueError as e:
         print(
-            f"Error for {passenger['Passenger Name']}: {e}")  # Handle errors, such as invalid train ID or insufficient seats
+            f"Error for {passenger['Passenger Name']}: {e}")  
 
-generate_report_1(trains)  # Generate the first report (train details and available seats)
-generate_report_2(trains)  # Generate the second report (total revenue earned)
+generate_report_1(trains) 
+generate_report_2(trains)  
