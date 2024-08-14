@@ -52,12 +52,14 @@ def generate_report_1(trains):
         for train_id, details in trains.items():
             file.write(f"Train ID: {train_id}, Train Name: {details['Train Name']}, Source: {details['Source Station']}, Destination: {details['Destination Station']}, Available Seats: {details['Available Seats']}\n")
 
-# Generate a report showing the total revenue earned by each train
+# Generate a report showing the total revenue earned by each train and the total revenue from all trains
 def generate_report_2(trains):
+    total_revenue = sum(details['Revenue'] for details in trains.values())
     with open('report_2.txt', 'w') as file:
         file.write("Total Revenue Earned from Each Train:\n")
         for train_id, details in trains.items():
             file.write(f"Train ID: {train_id}, Train Name: {details['Train Name']}, Revenue: {details['Revenue']}\n")
+        file.write(f"\nTotal Revenue from All Trains: {total_revenue}\n")
 
 # Calculate the fare based on the number of tickets (Example: Flat rate per ticket)
 def calculate_fare(num_tickets):
