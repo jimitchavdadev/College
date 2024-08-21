@@ -85,6 +85,8 @@ def calculate_fare(num_tickets):
 trains = load_train_data('/home/rebel/Roger/College/Sem 5/Python/07_aug_2024/trains.csv')  # Load train data from CSV
 passengers = load_passenger_data('/home/rebel/Roger/College/Sem 5/Python/07_aug_2024/passengers.csv')  # Load passenger data from CSV
 
+# Main block
+
 for passenger in passengers:
     train_id = passenger['Train ID']
     num_tickets = passenger['Number of Tickets']
