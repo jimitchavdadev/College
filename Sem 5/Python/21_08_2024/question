@@ -1,0 +1,19 @@
+You are working as a data scientist for a healthcare organization, and your team has been tasked with analysing COVID-19 data from multiple countries. The data is stored in JSON files, with each file representing the daily COVID-19 statistics for a specific country. Each JSON file has the following structure:
+
+    {"country":"Country Name",
+    "Date":"YYYY-MM-DD",
+    "Confirmed_Cases":{"Total":1000,"New":50},
+    "Deaths":{"Total":20,"New":2},
+    "Recovered":{"Total":800,"New":30}
+    }
+
+Your task is to write a Python program that performs the following operations:
+
+    1. Read COVID-19 data from all JSON files in a given directory and its sub-directories.
+    2. Calculate and display the following statistics for each country:
+        1. Total Confirmed Cases.
+        2. Total Deaths.
+        3. Total Recovered Cases.
+        4. Total Active Cases.
+    3. Determine the top 5 countries with the highest number of confirmed cases and the lowest number of confirmed cases.
+    4. Generate a summary report in JSON format that includes the statistics for all countries and save it to a file named 'covid19_summary.json'.

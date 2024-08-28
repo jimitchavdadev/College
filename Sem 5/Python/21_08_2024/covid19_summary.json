@@ -1,0 +1,74 @@
+[
+    {
+        "country": "USA",
+        "confirmed_cases": 1116123.0,
+        "deaths": 54300.4,
+        "recovered": 919307.6,
+        "max_cases": 1222732,
+        "max_date": "2024-08-26"
+    },
+    {
+        "country": "India",
+        "confirmed_cases": 985681.5,
+        "deaths": 44122.0,
+        "recovered": 751626.9,
+        "max_cases": 1073180,
+        "max_date": "2024-08-26"
+    },
+    {
+        "country": "Brazil",
+        "confirmed_cases": 929961.1,
+        "deaths": 42083.4,
+        "recovered": 691849.1,
+        "max_cases": 1009821,
+        "max_date": "2024-08-26"
+    },
+    {
+        "country": "UK",
+        "confirmed_cases": 765788.0,
+        "deaths": 31981.8,
+        "recovered": 591961.4,
+        "max_cases": 830900,
+        "max_date": "2024-08-26"
+    },
+    {
+        "country": "Germany",
+        "confirmed_cases": 662109.5,
+        "deaths": 26686.2,
+        "recovered": 517740.2,
+        "max_cases": 721987,
+        "max_date": "2024-08-26"
+    },
+    {
+        "country": "France",
+        "confirmed_cases": 559367.9,
+        "deaths": 21294.4,
+        "recovered": 434771.7,
+        "max_cases": 616789,
+        "max_date": "2024-08-26"
+    },
+    {
+        "country": "Italy",
+        "confirmed_cases": 488857.1,
+        "deaths": 18784.8,
+        "recovered": 383996.1,
+        "max_cases": 528930,
+        "max_date": "2024-08-26"
+    },
+    {
+        "country": "Canada",
+        "confirmed_cases": 448068.6,
+        "deaths": 16129.3,
+        "recovered": 350870.3,
+        "max_cases": 495684,
+        "max_date": "2024-08-26"
+    },
+    {
+        "country": "Australia",
+        "confirmed_cases": 379254.4,
+        "deaths": 12808.7,
+        "recovered": 302595.9,
+        "max_cases": 409576,
+        "max_date": "2024-08-26"
+    }
+]
