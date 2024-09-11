@@ -1,3 +1,7 @@
-This is a sample text file.
-It contains multiple lines of text.
-The tool will count the words and character frequencies.
+Hello world! This is a sample text file for testing the custom text processing tool.
+
+It includes various sentences to test word counting, character frequency calculation, and other text processing features.
+
+Non-string data: 12345  (This is not valid text for processing)
+
+Another line with missing data
