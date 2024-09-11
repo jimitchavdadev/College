@@ -19,7 +19,7 @@ class DiskSpaceFullError(Exception):
 
 # Simulate disk space limit (1 MB)
 DISK_SPACE_LIMIT_MB = 1  # Set disk space limit in megabytes
-DISK_SPACE_LIMIT_BYTES = DISK_SPACE_LIMIT_MB * 1024 * 1024  # Convert limit to bytes
+DISK_SPACE_LIMIT_BYTES = DISK_SPACE_LIMIT_MB  # Convert limit to bytes
 
 def read_input_file(file_path):
     # Check if the specified file exists
@@ -48,7 +48,6 @@ def write_output_file(file_path, data):
 def main():
     try:
         # Define input and output file paths
-        input_file = '/home/rebel/Roger/College/Sem 5/Python/04_09_2024/input.txt'  # Replace with actual input file path
         output_file = '/home/rebel/Roger/College/Sem 5/Python/04_09_2024/output.txt'  # Replace with actual output file path
         
         # Step 1: Read the input file
