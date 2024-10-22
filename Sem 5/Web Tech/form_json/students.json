@@ -1,0 +1,46 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "age": 20,
+            "course": "Computer Science"
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "age": 22,
+            "course": "Electrical Engineering"
+        },
+        {
+            "id": 3,
+            "name": "Samuel Green",
+            "age": 21,
+            "course": "Mechanical Engineering"
+        },
+        {
+            "id": 4,
+            "name": "Emily White",
+            "age": 19,
+            "course": "Civil Engineering"
+        },
+        {
+            "id": 5,
+            "name": "Michael Brown",
+            "age": 23,
+            "course": "Data Science"
+        },
+        {
+            "id": 6,
+            "name": "Lisa Black",
+            "age": 22,
+            "course": "Information Technology"
+        },
+        {
+            "id": 7,
+            "name": "Andrew Blue",
+            "age": 21,
+            "course": "Software Engineering"
+        }
+    ]
+}
