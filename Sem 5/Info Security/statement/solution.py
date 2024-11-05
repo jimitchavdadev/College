@@ -13,58 +13,35 @@ b) Encrypt the input words PLAINTEXT= RAG
 BABY to obtain CIPHERTEXT = SCJ DDFDZ
 """
 
-# 1.
-
-def encrypt(text, rank):
-    length = len(str(rank))
-    rank = [int(digit) for digit in str(rank)]
-
-    i = 0
-    encrypted_text = ''
+def encrypt(plaintext, key):
+    # Convert plaintext to uppercase and remove non-alpha characters
+    plaintext = ''.join(filter(str.isalpha, plaintext.upper()))
+    key = [int(k) for k in str(key)]  # Convert key to a list of integers
+    key_length = len(key)
     
-    for char in text:
-        if char.isalpha() and char.isupper():
-            char_num = ord(char) - 65
-            encrypted_char_num = (char_num + rank[i % length]) % 26
-            encrypted_char = chr(encrypted_char_num + 65)
-            encrypted_text +=  encrypted_char
-        elif char.isalpha() and char.islower():
-            char_num = ord(char)  - 97
-            encrypted_char_num = (char_num + rank[i % length]) % 26
-            encrypted_char = chr(encrypted_char_num + 97)
-            encrypted_text += encrypted_char
-        else:
-            encrypted_text += char
-        
-        i = (i+1)%length
-    return encrypted_text
+    # Fill the plaintext with the smallest letter if necessary
+    while len(plaintext) % key_length != 0:
+        smallest_letter = min(plaintext)
+        plaintext += smallest_letter
+    
+    ciphertext = []
+    
+    for i, char in enumerate(plaintext):
+        # Calculate the new character based on the key
+        shift = key[i % key_length]
+        new_char = chr((ord(char) - ord('A') + shift) % 26 + ord('A'))
+        ciphertext.append(new_char)
+    
+    return ''.join(ciphertext)
 
-print(encrypt('GRONSFELD',1234))
+# Example usage
+plaintext1 = "GRONSFELD"
+key1 = 1234
+ciphertext1 = encrypt(plaintext1, key1)
+print(f"Ciphertext for '{plaintext1}' with key '{key1}': {ciphertext1}")
 
-# 2.
-
-def encrypt(text):
-    text_num = 0
-    word = 0
-
-    encrypted_text = ""
-    for char in text:
-        if char == " ":
-            word += 1
-            text_num = 0
-            encrypted_text += char
-        else:
-            text_num += 1
-            if char.isalpha() and char.isupper():
-                char_num = ord(char) - 65
-                char_text = (char_num + word + text_num) % 26
-                encrypted_text += chr(char_text+ 65)
-            elif char.isalpha() and char.islower():
-                char_num = ord(char) - 97
-                char_text = (char_num + word + text_num) % 26
-                encrypted_text += chr(char_text+ 97)
-            else:
-                encrypted_text += char
-    return encrypted_text
-
-print(encrypt('RAG BABY'))
+# Encrypting RAG BABY
+plaintext2 = "RAG BABY"
+key2 = 1234  # Using the same key for simplicity
+ciphertext2 = encrypt(plaintext2, key2)
+print(f"Ciphertext for '{plaintext2}' with key '{key2}': {ciphertext2}")

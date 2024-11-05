@@ -1,0 +1,22 @@
+Three Address Code (TAC):
+A, = B
+t0 = A, + C
+A, = t0
+t1 = A, - =5
+A, = t1
+t2 = B, * D
+B, = t2
+t3 = E, / F
+E, = t3
+G, = H
+goto LOOP
+VAR1 = =15
+X, = =20
+goto END
+VAR2 = =25
+Z, = VAR1
+t4 = Z, + =30
+Z, = t4
+X, = VAR2
+goto START
+halt
