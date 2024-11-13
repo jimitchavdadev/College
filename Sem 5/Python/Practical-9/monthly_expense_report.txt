@@ -1,0 +1,11 @@
+Total Monthly Expense of Each Family Member:
+
+Jimit Chavda:
+2024-11: 2000.0
+
+jimit chavda:
+2024-11: 1000.0
+
+Breakdown of Expenses by Category:
+something: 1000.0
+test: 2000.0
