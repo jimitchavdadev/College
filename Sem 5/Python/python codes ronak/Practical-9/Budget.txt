@@ -1,0 +1,5 @@
+Food: 1500
+Dining: 1000
+Grocery: 2000
+Travel: 1900
+Stationery: 400
