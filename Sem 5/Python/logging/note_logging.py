@@ -28,7 +28,7 @@ def delete_note(note):
 
 def list_notes(notes):
     """
-    Function to list all notes. Returns a string of notes or a message if no notes exist.
+    Function to lista    all notes. Returns a string of notes or a message if no notes exist.
     """
     logging.info('Listing all notes.')
     return "\n".join(notes) if notes else "No notes available."
