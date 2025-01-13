@@ -12,3 +12,8 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+footer p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
