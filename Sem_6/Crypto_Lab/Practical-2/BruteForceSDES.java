@@ -11,14 +11,12 @@ public class BruteForceSDES {
             String binaryKey = String.format("%10s", Integer.toBinaryString(i)).replace(' ', '0');
             BitSet key = SDESEncryption.bitSetFromString(binaryKey, 10); // Use SDESEncryption
 
-            // Decrypt the ciphertext using the current key
             BitSet decryptedText = SDESEncryption.decrypt(ciphertext, key); // Use SDESEncryption
 
             // Print each key
             System.out.print("Trying key: ");
             SDESEncryption.printBinary(key, 10); // Use SDESEncryption
 
-            // Compare with the known plaintext
             if (decryptedText.equals(knownPlaintext)) {
                 System.out.println("Key found!");
                 System.out.print("Key: ");
@@ -39,12 +37,10 @@ public class BruteForceSDES {
         System.out.print("Original plaintext: ");
         SDESEncryption.printBinary(plaintext, 8); // Use SDESEncryption
 
-        // Encrypt the plaintext
         BitSet ciphertext = SDESEncryption.encrypt(plaintext, key); // Use SDESEncryption
         System.out.print("Ciphertext: ");
         SDESEncryption.printBinary(ciphertext, 8); // Use SDESEncryption
 
-        // Perform brute force attack
         bruteForce(ciphertext, plaintext);
     }
 }
