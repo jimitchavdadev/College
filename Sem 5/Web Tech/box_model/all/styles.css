@@ -1,0 +1,61 @@
+.margins {
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    background-color: lightblue;
+}
+
+
+.parent {
+    color: blue;
+    font-size: 20px;
+}
+
+.child {
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.text-example .uppercase {
+    text-transform: uppercase;
+}
+
+.text-example{
+    color: black
+}
+
+.text-example .lowercase {
+    text-transform: lowercase;
+}
+
+.text-example .capitalize {
+    text-transform: capitalize;
+}
+
+.text-example .none {
+    text-transform: none;
+}
+
+.text-spacing-example{
+    color: black
+}
+
+.text-spacing-example .letter-spacing {
+    letter-spacing: 2px;
+}
+
+.text-spacing-example .word-spacing {
+    word-spacing: 10px;
+}
+
+.text-spacing-example .line-height {
+    line-height: 2;
+}
+
+.text-spacing-example .all-spacing {
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 2;
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vote for Your Candidate</h1>
+        <form action="vote.php" method="post">
+            <label for="candidate">Choose Candidate:</label>
+            <select name="candidate_id" required>
+                <?php
+                    // Fetch candidates from database
+                    include 'db_connection.php';
+                    $query = "SELECT * FROM candidates";
+                    $result = mysqli_query($conn, $query);
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        echo "<option value='" . $row['candidate_id'] . "'>" . $row['name'] . " (" . $row['party'] . ")</option>";
+                    }
+                ?>
+            </select>
+
+            <input type="submit" value="Vote">
+        </form>
+    </div>
+</body>
+</html>

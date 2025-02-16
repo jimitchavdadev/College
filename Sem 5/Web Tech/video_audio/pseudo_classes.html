@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pseudo-Class Example</title>
+    <style>
+      a:link {
+        color: green; /* unvisited links */
+      }
+
+      a:visited {
+        color: purple; /* visited links */
+      }
+
+      a:hover {
+        color: blue; /* Color when hovering */
+      }
+
+      a:active {
+        color: red; /* when the link is being clicked */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pseudo-Class Example</h1>
+    <p>Check out the following links and see how they change color:</p>
+
+    <ul>
+      <li><a href="https://www.amazon.com">Amazon</a></li>
+      <li><a href="https://www.google.com">Google</a></li>
+      <li><a href="https://www.gmail.com">GMail</a></li>
+    </ul>
+
+    <h1>Media Example</h1>
+
+    <h2>Local Video</h2>
+    <video width="320" height="240" controls>
+      <source src="local_video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <h2>Autoplay Video</h2>
+    <video width="320" height="240" autoplay muted loop>
+      <source src="autoplay_video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <h2>YouTube Autoplay Video</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/watch?v=LXb3EKWsInQ&pp=ygUMc2FtcGxlIHZpZGVv"
+      title="YouTube video player"
+      frameborder="0"
+      allow="autoplay"
+      allowfullscreen
+    >
+    </iframe>
+
+    <h2>Audio Example</h2>
+    <audio controls>
+      <source src="sample_audio.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </body>
+</html>

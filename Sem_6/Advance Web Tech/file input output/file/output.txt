@@ -1,0 +1,7 @@
+hello world
+this
+is a
+testing
+file
+
+ This is the appended text: 

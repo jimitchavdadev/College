@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Data Type Operations</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Select Data Type and Perform Operations</h2>
+      <label for="dataType">Select Data Type:</label>
+      <select id="dataType" onchange="showOperations()">
+        <option value="">-- Select Data Type --</option>
+        <option value="string">String</option>
+        <option value="array">Array</option>
+        <option value="math">Math</option>
+      </select>
+
+      <label for="input1">Input 1:</label>
+      <input type="text" id="input1" />
+
+      <label for="input2">Input 2:</label>
+      <input type="text" id="input2" />
+
+      <label for="operation">Select Operation:</label>
+      <select id="operation" disabled>
+        <option value="">-- Select Operation --</option>
+      </select>
+
+      <button onclick="performOperation()">Perform</button>
+
+      <div class="output" id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

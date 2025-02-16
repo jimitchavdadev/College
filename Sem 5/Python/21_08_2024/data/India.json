@@ -1,0 +1,16 @@
+{
+    "country": "India",
+    "data": [
+      { "date": "2020-08-17", "confirmed_cases": { "total": 900345, "new": 18745 }, "deaths": { "total": 42123, "new": 472 }, "recovered": { "total": 691234, "new": 13412 } },
+      { "date": "2020-08-18", "confirmed_cases": { "total": 918450, "new": 18105 }, "deaths": { "total": 42512, "new": 389 }, "recovered": { "total": 704567, "new": 13333 } },
+      { "date": "2020-08-19", "confirmed_cases": { "total": 936880, "new": 18430 }, "deaths": { "total": 42998, "new": 486 }, "recovered": { "total": 717832, "new": 13365 } },
+      { "date": "2020-08-20", "confirmed_cases": { "total": 955290, "new": 18310 }, "deaths": { "total": 43412, "new": 414 }, "recovered": { "total": 731150, "new": 13250 } },
+      { "date": "2020-08-21", "confirmed_cases": { "total": 973680, "new": 18390 }, "deaths": { "total": 43880, "new": 468 }, "recovered": { "total": 744758, "new": 13608 } },
+      { "date": "2020-08-22", "confirmed_cases": { "total": 992210, "new": 18530 }, "deaths": { "total": 44310, "new": 430 }, "recovered": { "total": 758310, "new": 13552 } },
+      { "date": "2020-08-23", "confirmed_cases": { "total": 1016830, "new": 24070 }, "deaths": { "total": 44785, "new": 475 }, "recovered": { "total": 771850, "new": 13662 } },
+      { "date": "2020-08-24", "confirmed_cases": { "total": 1035870, "new": 19040 }, "deaths": { "total": 45230, "new": 445 }, "recovered": { "total": 785286, "new": 13436 } },
+      { "date": "2020-08-25", "confirmed_cases": { "total": 1054080, "new": 18210 }, "deaths": { "total": 45720, "new": 490 }, "recovered": { "total": 798859, "new": 13601 } },
+      { "date": "2020-08-26", "confirmed_cases": { "total": 1073180, "new": 19100 }, "deaths": { "total": 46250, "new": 530 }, "recovered": { "total": 812423, "new": 13564 } }
+    ]
+  }
+  

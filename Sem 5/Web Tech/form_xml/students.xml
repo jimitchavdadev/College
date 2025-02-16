@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <id>1</id>
+        <name>John Doe</name>
+        <age>20</age>
+        <course>Computer Science</course>
+    </student>
+    <student>
+        <id>2</id>
+        <name>Jane Smith</name>
+        <age>22</age>
+        <course>Electrical Engineering</course>
+    </student>
+    <student>
+        <id>3</id>
+        <name>Samuel Green</name>
+        <age>21</age>
+        <course>Mechanical Engineering</course>
+    </student>
+    <student>
+        <id>4</id>
+        <name>Emily White</name>
+        <age>19</age>
+        <course>Civil Engineering</course>
+    </student>
+    <student>
+        <id>5</id>
+        <name>Michael Brown</name>
+        <age>23</age>
+        <course>Data Science</course>
+    </student>
+    <student>
+        <id>6</id>
+        <name>Lisa Black</name>
+        <age>22</age>
+        <course>Information Technology</course>
+    </student>
+    <student>
+        <id>7</id>
+        <name>Andrew Blue</name>
+        <age>21</age>
+        <course>Software Engineering</course>
+    </student>
+</students>

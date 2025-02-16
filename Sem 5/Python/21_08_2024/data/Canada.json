@@ -1,0 +1,16 @@
+{
+    "country": "Canada",
+    "data": [
+      { "date": "2020-08-17", "confirmed_cases": { "total": 402345, "new": 8345 }, "deaths": { "total": 15187, "new": 192 }, "recovered": { "total": 322567, "new": 6210 } },
+      { "date": "2020-08-18", "confirmed_cases": { "total": 411567, "new": 9232 }, "deaths": { "total": 15385, "new": 198 }, "recovered": { "total": 328156, "new": 6589 } },
+      { "date": "2020-08-19", "confirmed_cases": { "total": 421098, "new": 9511 }, "deaths": { "total": 15582, "new": 197 }, "recovered": { "total": 334128, "new": 6972 } },
+      { "date": "2020-08-20", "confirmed_cases": { "total": 431654, "new": 10556 }, "deaths": { "total": 15780, "new": 198 }, "recovered": { "total": 340214, "new": 7086 } },
+      { "date": "2020-08-21", "confirmed_cases": { "total": 442326, "new": 10672 }, "deaths": { "total": 15994, "new": 214 }, "recovered": { "total": 346879, "new": 6655 } },
+      { "date": "2020-08-22", "confirmed_cases": { "total": 453011, "new": 10685 }, "deaths": { "total": 16222, "new": 228 }, "recovered": { "total": 353472, "new": 6593 } },
+      { "date": "2020-08-23", "confirmed_cases": { "total": 463689, "new": 10678 }, "deaths": { "total": 16455, "new": 233 }, "recovered": { "total": 360257, "new": 6785 } },
+      { "date": "2020-08-24", "confirmed_cases": { "total": 474280, "new": 10591 }, "deaths": { "total": 16677, "new": 222 }, "recovered": { "total": 367089, "new": 6832 } },
+      { "date": "2020-08-25", "confirmed_cases": { "total": 485032, "new": 10752 }, "deaths": { "total": 16893, "new": 216 }, "recovered": { "total": 374095, "new": 7006 } },
+      { "date": "2020-08-26", "confirmed_cases": { "total": 495684, "new": 10652 }, "deaths": { "total": 17118, "new": 225 }, "recovered": { "total": 381846, "new": 6751 } }
+    ]
+  }
+  

@@ -1,0 +1,18 @@
+2024-10-23 14:57:52,427 - INFO - Adding note: hello world
+2024-10-23 14:57:57,281 - INFO - Listing all notes.
+2024-10-23 14:58:06,443 - INFO - Deleting note: hello world
+2024-10-23 14:58:10,700 - INFO - Adding note: hello
+2024-10-23 14:58:12,901 - INFO - Adding note: hello
+2024-10-23 14:58:14,348 - INFO - Listing all notes.
+2024-10-23 14:58:16,119 - INFO - Exiting the note management system.
+2024-10-23 14:58:20,603 - INFO - Listing all notes.
+2024-10-23 14:58:24,999 - INFO - Exiting the note management system.
+2024-10-23 15:24:56,547 - ERROR - Invalid action: No Action Selected
+2024-10-23 15:25:09,478 - ERROR - Invalid Input: Note cannot be empty or non-string.
+2024-11-13 14:19:14,138 - INFO - Adding note: testing
+2024-11-13 14:19:17,117 - INFO - Listing all notes.
+2024-11-13 14:19:19,472 - INFO - Exiting the note management system.
+2024-11-13 15:04:05,350 - INFO - Adding note: testing
+2024-11-13 15:04:08,336 - INFO - Exiting the note management system.
+2024-11-13 16:17:10,014 - INFO - Adding note: hello world
+2024-11-13 16:17:12,169 - INFO - Exiting the note management system.

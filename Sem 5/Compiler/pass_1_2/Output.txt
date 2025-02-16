@@ -1,0 +1,31 @@
+
+SRC                 LC                 IC                       Machine Code
+
+START 200          0         (AD, 01) (C, 200)    -                             
+MOVER AREG,, ='7'  200       (IS, 04) (AREG,) (L, 0) 04 AREG, 0                    
+ADD BREG,, X       201       (IS, 01) (BREG,) (S, 0) 01 BREG, 0                    
+MOVEM CREG,, Y     202       (IS, 05) (CREG,) (S, 1) 05 CREG, 1                    
+SUB AREG,, ='3'    203       (IS, 02) (AREG,) (L, 1) 02 AREG, 1                    
+LTORG              204       (AD, 05)             -                             
+DIV CREG,, ='6'    206       (IS, 08) (CREG,) (L, 2) 08 CREG, 2                    
+MOVEM BREG,, Z     207       (IS, 05) (BREG,) (S, 2) 05 BREG, 2                    
+LTORG              208       (AD, 05)             -                             
+END                209       (AD, 02)             -                             
+
+Symbol Table:
+Index      Symbol     Address   
+0          X          201       
+1          Y          202       
+2          Z          207       
+
+Literal Table:
+Index      Literal    Address   
+0          ='7'       204       
+1          ='3'       205       
+2          ='6'       208       
+
+Pool Table:
+Pool No.        Literal Start Index 
+0               0                   
+1               2                   
+2               3                   

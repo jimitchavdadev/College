@@ -1,0 +1,16 @@
+{
+    "country": "Australia",
+    "data": [
+      { "date": "2020-08-17", "confirmed_cases": { "total": 348256, "new": 6821 }, "deaths": { "total": 12105, "new": 153 }, "recovered": { "total": 279412, "new": 5223 } },
+      { "date": "2020-08-18", "confirmed_cases": { "total": 355182, "new": 6892 }, "deaths": { "total": 12258, "new": 153 }, "recovered": { "total": 284953, "new": 5541 } },
+      { "date": "2020-08-19", "confirmed_cases": { "total": 362154, "new": 6972 }, "deaths": { "total": 12413, "new": 155 }, "recovered": { "total": 290408, "new": 5455 } },
+      { "date": "2020-08-20", "confirmed_cases": { "total": 369256, "new": 7102 }, "deaths": { "total": 12568, "new": 155 }, "recovered": { "total": 295079, "new": 5671 } },
+      { "date": "2020-08-21", "confirmed_cases": { "total": 376190, "new": 6928 }, "deaths": { "total": 12722, "new": 154 }, "recovered": { "total": 300234, "new": 5155 } },
+      { "date": "2020-08-22", "confirmed_cases": { "total": 383032, "new": 6812 }, "deaths": { "total": 12884, "new": 162 }, "recovered": { "total": 305091, "new": 5857 } },
+      { "date": "2020-08-23", "confirmed_cases": { "total": 389745, "new": 6748 }, "deaths": { "total": 13048, "new": 164 }, "recovered": { "total": 310092, "new": 6001 } },
+      { "date": "2020-08-24", "confirmed_cases": { "total": 396238, "new": 6506 }, "deaths": { "total": 13207, "new": 159 }, "recovered": { "total": 315132, "new": 6040 } },
+      { "date": "2020-08-25", "confirmed_cases": { "total": 402915, "new": 6684 }, "deaths": { "total": 13362, "new": 155 }, "recovered": { "total": 320267, "new": 6135 } },
+      { "date": "2020-08-26", "confirmed_cases": { "total": 409576, "new": 6697 }, "deaths": { "total": 13520, "new": 158 }, "recovered": { "total": 325291, "new": 6024 } }
+    ]
+  }
+  

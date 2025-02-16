@@ -1,0 +1,41 @@
+Total number of reviews: 31
+
+Valid reviews (total 28):
+{'CustomerID': 'A1B2C3', 'ProductID': '12345XYZ67', 'ReviewDate': '2023-06-15', 'Review': 5.0, 'ReviewText': 'Great product!'}
+{'CustomerID': 'D4E5F6', 'ProductID': '12345XYZ67', 'ReviewDate': '2023-07-20', 'Review': 4.0, 'ReviewText': 'Works well.'}
+{'CustomerID': 'G7H8I9', 'ProductID': '12345XYZ67', 'ReviewDate': '2023-05-10', 'Review': 3.0, 'ReviewText': 'Average quality.'}
+{'CustomerID': 'J1K2L3', 'ProductID': '12345XYZ67', 'ReviewDate': '2023-06-25', 'Review': 2.0, 'ReviewText': 'Not satisfied.'}
+{'CustomerID': 'M4N5O6', 'ProductID': '12345XYZ67', 'ReviewDate': '2023-07-30', 'Review': 1.0, 'ReviewText': 'Poor experience.'}
+{'CustomerID': 'N5O6P7', 'ProductID': '12345XYZ67', 'ReviewDate': '2023-08-15', 'Review': 5.0, 'ReviewText': 'Excellent quality!'}
+{'CustomerID': 'I7J8K9', 'ProductID': '11121ABC33', 'ReviewDate': '2023-08-02', 'Review': 5.0, 'ReviewText': 'Superb!'}
+{'CustomerID': 'L1M2N3', 'ProductID': '11121ABC33', 'ReviewDate': '2023-09-09', 'Review': 4.0, 'ReviewText': 'Good product.'}
+{'CustomerID': 'O4P5Q6', 'ProductID': '11121ABC33', 'ReviewDate': '2023-10-14', 'Review': 3.0, 'ReviewText': 'Not bad.'}
+{'CustomerID': 'R7S8T9', 'ProductID': '11121ABC33', 'ReviewDate': '2023-11-17', 'Review': 2.0, 'ReviewText': 'Expected better.'}
+{'CustomerID': 'U1V2W3', 'ProductID': '11121ABC33', 'ReviewDate': '2023-12-21', 'Review': 1.0, 'ReviewText': 'Regret buying.'}
+{'CustomerID': 'P7Q8R9', 'ProductID': '54321PQR34', 'ReviewDate': '2023-08-01', 'Review': 5.0, 'ReviewText': 'Excellent!'}
+{'CustomerID': 'S1T2U3', 'ProductID': '54321PQR34', 'ReviewDate': '2023-09-14', 'Review': 4.0, 'ReviewText': 'Very good.'}
+{'CustomerID': 'V4W5X6', 'ProductID': '54321PQR34', 'ReviewDate': '2023-10-05', 'Review': 3.0, 'ReviewText': "It's okay."}
+{'CustomerID': 'Y7Z8A9', 'ProductID': '54321PQR34', 'ReviewDate': '2023-07-18', 'Review': 2.0, 'ReviewText': 'Could be better.'}
+{'CustomerID': 'B1C2D3', 'ProductID': '54321PQR34', 'ReviewDate': '2023-11-22', 'Review': 1.0, 'ReviewText': 'Not worth it.'}
+{'CustomerID': 'T1U2V3', 'ProductID': '87654YZA90', 'ReviewDate': '2023-03-10', 'Review': 5.0, 'ReviewText': 'Love it!'}
+{'CustomerID': 'W4X5Y6', 'ProductID': '87654YZA90', 'ReviewDate': '2023-04-14', 'Review': 4.0, 'ReviewText': 'Satisfied.'}
+{'CustomerID': 'Z7A8B9', 'ProductID': '87654YZA90', 'ReviewDate': '2023-05-13', 'Review': 3.0, 'ReviewText': "It's decent."}
+{'CustomerID': 'C1D2E3', 'ProductID': '87654YZA90', 'ReviewDate': '2023-06-19', 'Review': 2.0, 'ReviewText': 'Could improve.'}
+{'CustomerID': 'F4G5H6', 'ProductID': '87654YZA90', 'ReviewDate': '2023-07-23', 'Review': 1.0, 'ReviewText': 'Very bad.'}
+{'CustomerID': 'E4F5G6', 'ProductID': '98765VWX78', 'ReviewDate': '2023-04-12', 'Review': 5.0, 'ReviewText': 'Highly recommend!'}
+{'CustomerID': 'H7I8J9', 'ProductID': '98765VWX78', 'ReviewDate': '2023-05-21', 'Review': 4.0, 'ReviewText': 'Pretty good.'}
+{'CustomerID': 'K1L2M3', 'ProductID': '98765VWX78', 'ReviewDate': '2023-06-11', 'Review': 3.0, 'ReviewText': 'Just fine.'}
+{'CustomerID': 'N4O5P6', 'ProductID': '98765VWX78', 'ReviewDate': '2023-07-01', 'Review': 2.0, 'ReviewText': 'Disappointed.'}
+{'CustomerID': 'Q7R8S9', 'ProductID': '98765VWX78', 'ReviewDate': '2023-08-25', 'Review': 1.0, 'ReviewText': 'Not happy.'}
+{'CustomerID': 'R4S5T6', 'ProductID': '98765VWX78', 'ReviewDate': '2023-09-15', 'Review': 5.0, 'ReviewText': 'Best product ever!'}
+{'CustomerID': 'U8V9W0', 'ProductID': '98765VWX78', 'ReviewDate': '2023-10-20', 'Review': 3.0, 'ReviewText': 'Average.'}
+
+Invalid reviews (total 3):
+{'CustomerID': 'Q8R9S1', 'ProductID': '12345XYZ67', 'ReviewDate': nan, 'Review': 4.0, 'ReviewText': 'No review date provided.'}
+{'CustomerID': 'T2U3V4', 'ProductID': '12345XYZ67', 'ReviewDate': '2023-09-10', 'Review': nan, 'ReviewText': 'No review provided.'}
+{'CustomerID': 'F1G2H3', 'ProductID': '54321PQR34', 'ReviewDate': nan, 'Review': 4.0, 'ReviewText': 'Good but no date.'}
+
+Top 3 products based on average rating:
+ProductID: 12345XYZ67, Average Rating: 3.43
+ProductID: 98765VWX78, Average Rating: 3.29
+ProductID: 54321PQR34, Average Rating: 3.17

@@ -1,0 +1,65 @@
+[
+    {
+        "country": "USA",
+        "confirmed_cases": 11161230,
+        "deaths": 543004,
+        "recovered": 9193076,
+        "active_cases": 1425150
+    },
+    {
+        "country": "India",
+        "confirmed_cases": 9856815,
+        "deaths": 441220,
+        "recovered": 7516269,
+        "active_cases": 1899326
+    },
+    {
+        "country": "Brazil",
+        "confirmed_cases": 9299611,
+        "deaths": 420834,
+        "recovered": 6918491,
+        "active_cases": 1960286
+    },
+    {
+        "country": "UK",
+        "confirmed_cases": 7657880,
+        "deaths": 319818,
+        "recovered": 5919614,
+        "active_cases": 1418448
+    },
+    {
+        "country": "Germany",
+        "confirmed_cases": 6621095,
+        "deaths": 266862,
+        "recovered": 5177402,
+        "active_cases": 1176831
+    },
+    {
+        "country": "France",
+        "confirmed_cases": 5593679,
+        "deaths": 212944,
+        "recovered": 4347717,
+        "active_cases": 1033018
+    },
+    {
+        "country": "Italy",
+        "confirmed_cases": 4888571,
+        "deaths": 187848,
+        "recovered": 3839961,
+        "active_cases": 860762
+    },
+    {
+        "country": "Canada",
+        "confirmed_cases": 4480686,
+        "deaths": 161293,
+        "recovered": 3508703,
+        "active_cases": 810690
+    },
+    {
+        "country": "Australia",
+        "confirmed_cases": 3792544,
+        "deaths": 128087,
+        "recovered": 3025959,
+        "active_cases": 638498
+    }
+]

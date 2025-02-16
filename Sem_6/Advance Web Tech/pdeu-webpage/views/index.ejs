@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDEU Webpage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <%- include('partials/header') %>
+
+    <main class="container mt-5 flex-grow-1">
+        <h1 class="text-center">PDEU Webpage</h1>
+        <div class="d-flex justify-content-center mt-4">
+            <div class="dropdown mx-2">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Home
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">BE</a></li>
+                    <li><a class="dropdown-item" href="#">ME</a></li>
+                    <li><a class="dropdown-item" href="#">CSE</a></li>
+                </ul>
+            </div>
+            <div class="dropdown mx-2">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Courses
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">CSE</a></li>
+                    <li><a class="dropdown-item" href="#">ICT</a></li>
+                    <li><a class="dropdown-item" href="#">EE</a></li>
+                </ul>
+            </div>
+            <div class="dropdown mx-2">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Subjects
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">CSE</a></li>
+                    <li><a class="dropdown-item" href="#">ICT</a></li>
+                    <li><a class="dropdown-item" href="#">EE</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <%- include('partials/footer') %>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+Train ID,Train Name,Source Station,Destination Station,Total Seats
+1,Express Alpha,New York,Washington,120
+2,Regional Beta,Washington,Philadelphia,Ninety   
+3,Intercity Gamma,Philadelphia,New York,110
+4,Metro Delta,Boston,New York,150
+5,Highspeed Epsilon,New York,Chicago,Two Hundred    
+6,Local Zeta,Chicago,Detroit,80
+7,Express Eta,Detroit,New York,130
+8,Intercity Theta,New York,San Francisco,250
+9,Regional Iota,San Francisco,Los Angeles,170
+10,Metro Kappa,Los Angeles,Las Vegas,140
+11,Highspeed Lambda,Las Vegas,Seattle,210
+12,Local Mu,Seattle,Denver,100
+13,Express Nu,Denver,Houston,160
+14,Regional Xi,Houston,Atlanta,180
+15,Intercity Omicron,Atlanta,Miami,220
+16,Metro Pi,Miami,Orlando,110
+17,Highspeed Rho,Orlando,Tampa,125
+18,Local Sigma,Tampa,Atlanta,90
+19,Express Tau,Atlanta,Nashville,140
+20,Regional Upsilon,Nashville,St. Louis,       
+21,Metro Omega,New York,Seattle,                

@@ -1,0 +1,5 @@
+Hello world! This is a sample text file for testing the custom text processing tool.
+
+It includes various sentences to test word counting, character frequency calculation, and other text processing features.
+
+Feel free to modify this file as needed.

@@ -1,0 +1,16 @@
+{
+    "country": "Brazil",
+    "data": [
+      { "date": "2020-08-17", "confirmed_cases": { "total": 851234, "new": 12345 }, "deaths": { "total": 40156, "new": 321 }, "recovered": { "total": 641234, "new": 11345 } },
+      { "date": "2020-08-18", "confirmed_cases": { "total": 868789, "new": 17555 }, "deaths": { "total": 40578, "new": 422 }, "recovered": { "total": 652789, "new": 11555 } },
+      { "date": "2020-08-19", "confirmed_cases": { "total": 886012, "new": 17223 }, "deaths": { "total": 41002, "new": 424 }, "recovered": { "total": 664012, "new": 11323 } },
+      { "date": "2020-08-20", "confirmed_cases": { "total": 903564, "new": 17552 }, "deaths": { "total": 41435, "new": 433 }, "recovered": { "total": 675564, "new": 11552 } },
+      { "date": "2020-08-21", "confirmed_cases": { "total": 921235, "new": 17671 }, "deaths": { "total": 41868, "new": 433 }, "recovered": { "total": 686673, "new": 11109 } },
+      { "date": "2020-08-22", "confirmed_cases": { "total": 938789, "new": 17654 }, "deaths": { "total": 42301, "new": 433 }, "recovered": { "total": 697789, "new": 11116 } },
+      { "date": "2020-08-23", "confirmed_cases": { "total": 956012, "new": 17223 }, "deaths": { "total": 42712, "new": 411 }, "recovered": { "total": 708667, "new": 10978 } },
+      { "date": "2020-08-24", "confirmed_cases": { "total": 973400, "new": 17488 }, "deaths": { "total": 43154, "new": 442 }, "recovered": { "total": 719644, "new": 10977 } },
+      { "date": "2020-08-25", "confirmed_cases": { "total": 990755, "new": 17355 }, "deaths": { "total": 43601, "new": 447 }, "recovered": { "total": 730566, "new": 10922 } },
+      { "date": "2020-08-26", "confirmed_cases": { "total": 1009821, "new": 19166 }, "deaths": { "total": 44027, "new": 426 }, "recovered": { "total": 741553, "new": 10987 } }
+    ]
+  }
+  
