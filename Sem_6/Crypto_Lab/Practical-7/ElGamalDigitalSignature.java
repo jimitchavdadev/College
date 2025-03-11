@@ -3,16 +3,16 @@ import java.security.MessageDigest;
 import java.security.SecureRandom;
 
 public class ElGamalDigitalSignature {
-    
+
     private static final SecureRandom random = new SecureRandom();
-    private static final int BIT_LENGTH = 512;  // Key size
+    private static final int BIT_LENGTH = 512; // Key size
 
     public static class KeyPair {
-        public BigInteger p, g, y, x;  // Public (p, g, y), Private (x)
+        public BigInteger p, g, y, x; // Public (p, g, y), Private (x)
     }
 
     public static class Signature {
-        public BigInteger r, s;  // Signature (r, s)
+        public BigInteger r, s; // Signature (r, s)
     }
 
     // Generate Keys
@@ -59,7 +59,8 @@ public class ElGamalDigitalSignature {
     public static boolean verify(String message, Signature signature, KeyPair keyPair) throws Exception {
         BigInteger h = hashMessage(message, keyPair.p);
         BigInteger v1 = keyPair.g.modPow(h, keyPair.p); // g^H(m) mod p
-        BigInteger v2 = (keyPair.y.modPow(signature.r, keyPair.p).multiply(signature.r.modPow(signature.s, keyPair.p))).mod(keyPair.p); // y^r * r^s mod p
+        BigInteger v2 = (keyPair.y.modPow(signature.r, keyPair.p).multiply(signature.r.modPow(signature.s, keyPair.p)))
+                .mod(keyPair.p); // y^r * r^s mod p
 
         return v1.equals(v2);
     }
