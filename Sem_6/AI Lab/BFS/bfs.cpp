@@ -56,10 +56,8 @@ int main()
         {2}        // 5 -> 2
     };
 
-    // Print the graph structure
     printGraph(adjList);
 
-    // Perform BFS traversal starting from node 1
     bfs(1, adjList);
 
     return 0;
