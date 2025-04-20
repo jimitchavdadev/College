@@ -5,7 +5,7 @@ import os
 
 np.random.seed(42)
 
-def simulate_sensor_data(sensor_type,n_points=100):
+def simulate_sensor_data(sensor_type,n_points=1235):
     if sensor_type=='temperature':
         data=20+5*np.random.randn(n_points)
     elif sensor_type=='pressure':
