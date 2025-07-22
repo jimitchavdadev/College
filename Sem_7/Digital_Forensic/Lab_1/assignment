@@ -1,0 +1,30 @@
+Practical1: Using Hex Editors to find the Forensic Evidence 
+
+Instructions
+
+Explanation:
+You are provided with two different files, you have to get the following
+details of the file  
+
+File 1: 
+
+Task1: It
+isn’t a simple extension file so to find the correct extension you need to
+submit the original file, along with that there are hidden message or files in
+it get the details as well as metadata of the file. 
+
+Task 2: The
+standard file has some file hidden extract that for the view and show it’s
+data. 
+
+Also let us know
+1. What is the story?
+2. What you found?
+3. The hint you get
+4. place you reach
+
+NOTE:
+1. The extraction should be using hex editors and no other ways.
+2. The screenshot should be present of every step and it should be a full screen.
+3. Both task contains 5 in total, Task1:3 marks and Task2:2 marks.
+4. 5 marks for timely uploading the practical.
